@@ -8,7 +8,7 @@ function mainView() {
     let theHtml = "";
     theHtml = 
         '<div class="grid-item info">' +
-            '01 SEP 2019' +
+            '02 SEP 2019' +
         '</div>' +
         '<div class="grid-item main" onclick="changeView(invoiceView())">' +
             'NEW INVOICE' +
