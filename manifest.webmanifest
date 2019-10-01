@@ -3,6 +3,7 @@
     "short_name": "Invoicer",
     "start_url": ".",
     "display": "fullscreen",
+    "orientation": "landscape",
     "background_color": "#000000",
     "description": "Contractors Invoiceing App",
     "icons": [{
