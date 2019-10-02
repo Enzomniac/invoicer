@@ -1,0 +1,30 @@
+{
+    "clientData": [
+        {
+            "lastName": "Van der Vent",
+            "firstName": "Maarten",
+            "businessName": "Bloom Estate",
+            "address1": "Voortrek Street",
+            "address2": "",
+            "city": "Swellendam",
+            "postalCode": "6740",
+            "previousInvoice": [
+                "19A123", 
+                "19A124"
+            ]
+        },
+        {
+            "lastName": "Van Nederland",
+            "firstName": "Wim",
+            "businessName": "Babettes",
+            "address1": "Drostdy Street",
+            "address2": "",
+            "city": "Swellendam",
+            "postalCode": "6740",
+            "previousInvoice": [
+                "19A125", 
+                "19A126"
+            ]
+        }
+    ]
+}
