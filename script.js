@@ -52,6 +52,30 @@ function mainView() {
     return theHtml;
 }
 
+function anAlphaView() {
+    let theHtml = `
+        <div class="grid-item info">
+            Invoice:<br>
+            Select Client
+        </div>
+        <div class="clientPicker grid-item">
+            <div class="clientItem" id="1234">Blom, Jan</div>
+            <div class="clientItem" id="1234">Conradie, Ferdinand</div>
+            <div class="clientItem" id="1234">Dominee, Doos</div>
+            <div class="clientItem" id="1234">Eriks, Lelike</div>
+            <div class="clientItem" id="1234">Fransman, Jannie</div>
+        </div>
+        <div class="grid-item sub-one" onclick="changeView(invoiceView())">
+            << BACK
+        </div>
+        <div class="grid-item sub-two" onclick="changeView(mainView())">
+            CANCEL
+        </div>
+    `
+    return theHtml;
+
+}
+
 function checkClientData() {
     console.log("Here we Go");
     let htmlString = "";
@@ -71,7 +95,7 @@ function invoiceView() {
             Select Client
         </div>
         <div class="grid-item main subQuad">
-            <div class="quad-item" onclick="checkClientData()">A - G</div>
+            <div class="quad-item" onclick="changeView(anAlphaView())">A - G</div>
             <div class="quad-item">H - N</div>
             <div class="quad-item">O - W</div>
             <div class="quad-item">X - Z</div>

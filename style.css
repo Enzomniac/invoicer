@@ -83,3 +83,8 @@ body {
 .quad-item:active {
     box-shadow: none;
 }
+
+.clientPicker {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+}
