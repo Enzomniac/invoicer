@@ -87,4 +87,11 @@ body {
 .clientPicker {
     grid-column: 2 / -1;
     grid-row: 1 / -1;
+    justify-content: start;
+    padding-left: 1rem;
+}
+
+.clientItem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
 }
